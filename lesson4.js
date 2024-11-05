@@ -75,3 +75,6 @@ db.restaurants.countDocuments({ name: /^a/i }) // כמות המסעדות שמת
 
 // הערה חשובה
 // אנו נשתמש רק בדרך השניה כיוון שהיא יעילה יותר - countDocuments
+
+// תעודת אבטחה
+// https://netfree.link/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%94_%D7%A0%D7%A4%D7%95%D7%A6%D7%94
