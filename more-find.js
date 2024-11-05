@@ -19,3 +19,6 @@ db.aaa.find({ name: { $exists: true } }) // אם יש שדה בשם הזה גם 
 db.aaa.find()
 db.aaa.find({ name: {$type:"string"} })
 db.aaa.find({ name: {$type:2} })
+
+// github link:
+// https://github.com/programming-teacher-ladaat/mongo-lesson4-2024
