@@ -1,5 +1,3 @@
-use mydb
-
 db.aaa.insert({name:'aaa'})
 db.aaa.insert({name:'aaa', city: 'bb'})
 db.aaa.insert({})
@@ -21,4 +19,4 @@ db.aaa.find({ name: {$type:"string"} })
 db.aaa.find({ name: {$type:2} })
 
 // github link:
-// https://github.com/programming-teacher-ladaat/mongo-lesson4-2024
+// https://github.com/programming-teacher-ladaat/mongo-lessons-2024.git
